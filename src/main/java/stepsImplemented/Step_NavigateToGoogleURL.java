@@ -17,6 +17,7 @@ public class Step_NavigateToGoogleURL extends base {
 	public void BaseURLGoogleMethod() {
 		StringsDefined sd = new StringsDefined(driver);
 		driver.get(sd.getRagulpage());
+		System.out.println("Asta e un mesaj pentru proiectul de pe master in google class");
 		log.info("s-a rulat");
 		
 		Page_1 p1 = new Page_1(driver);
