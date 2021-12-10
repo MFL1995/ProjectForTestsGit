@@ -17,9 +17,8 @@ public class Step_NavigateToYoutubeURL extends base {
 	public void NavigateToYoutubeURLMethod() {
 		StringsDefined sd = new StringsDefined(driver);
 		driver.get(sd.getBaseURLYoutube());
-		System.out.println("Asta e un mesaj pentru proiectul de pe master in youtube class");
 		
-		System.out.println("UPDATE AGAIN youtube");
+		System.out.println("UPDATE AGAIN youtube - development branch");
 
 		log.info("s-a rulat");
 		log.trace("cu success");

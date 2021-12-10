@@ -17,15 +17,13 @@ public class Step_NavigateToGoogleURL extends base {
 	public void BaseURLGoogleMethod() {
 		StringsDefined sd = new StringsDefined(driver);
 		driver.get(sd.getRagulpage());
-		System.out.println("Asta e un mesaj pentru proiectul de pe master in google class");
 		
-		System.out.println("UPDATE AGAIN google");
+		System.out.println("UPDATE AGAIN google - development branch");
 		
 		log.info("s-a rulat");
 		
 		Page_1 p1 = new Page_1(driver);
 		p1.getSelectCountriesFindBy().sendKeys("valoare20");
-		
 		
 //		log.debug("I am debugging");
 //		log.error("object is not present");
