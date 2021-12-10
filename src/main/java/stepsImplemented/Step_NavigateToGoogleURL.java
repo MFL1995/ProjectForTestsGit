@@ -25,7 +25,7 @@ public class Step_NavigateToGoogleURL extends base {
 		Page_1 p1 = new Page_1(driver);
 		p1.getSelectCountriesFindBy().sendKeys("valoare20");
 		
-//		log.debug("I am debugging");
+		log.debug("I am debugging");
 //		log.error("object is not present");
 //		log.fatal("this is fatal error");
 	}
