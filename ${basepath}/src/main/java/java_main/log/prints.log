@@ -1,0 +1,4 @@
+09:54:29.583 [main] DEBUG java_main.LogsWithLogger - I am debugging
+09:54:29.585 [main] INFO  java_main.LogsWithLogger - object is present
+09:54:29.585 [main] ERROR java_main.LogsWithLogger - object is not present
+09:54:29.586 [main] FATAL java_main.LogsWithLogger - this is fatal error

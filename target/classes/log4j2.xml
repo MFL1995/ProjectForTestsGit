@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN">
+	 <properties> <property name="basePath">.\\src\main\\java.\\logFile</property> 
+		</properties> 
+	<Appenders>
+		<RollingFile name="File"
+			fileName="${basePath}/prints.log"
+			filePattern="${basePath}/prints-%d{yyyy-MM-dd}.log">
+			<PatternLayout
+				pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n" />
+			<SizeBasedTriggeringPolicy size="500" />
+		</RollingFile>
+		<Console name="Console" target="SYSTEM_OUT">
+			<PatternLayout
+				pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n" />
+		</Console>
+	</Appenders>
+	<Loggers>
+		<Logger name="java_main.LogsWithLogger" level="all"
+			additivity="false">
+			<AppenderRef ref="File" />
+			<!-- If the 'AppenderRef ref' value is Console, it will print in console -->
+			<!-- It will run only once if additivity 'false' and AppenderRef is wrriten -->
+		</Logger>
+		<Root level="all">
+			<AppenderRef ref="File" />
+		</Root>
+	</Loggers>
+</Configuration>
+
+
+<!-- List of Root levels
+		TRACE	DEBUG	INFO	WARN	ERROR	FATAL	OFF
+ALL		YES		YES		YES		YES		YES		YES		NO
+TRACE	YES		NO		NO		NO		NO		NO		NO
+DEBUG	YES		YES		NO		NO		NO		NO		NO
+INFO	YES		YES		YES		NO		NO		NO		NO
+WARN	YES		YES		YES		YES		NO		NO		NO
+ERROR	YES		YES		YES		YES		YES		NO		NO
+FATAL	YES		YES		YES		YES		YES		YES		NO
+OFF		NO		NO		NO		NO		NO		NO		NO  -->

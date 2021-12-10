@@ -1,0 +1,7 @@
+10:00:08.111 [main] ERROR java_main.LogsWithLogger - object is not present
+10:00:08.113 [main] FATAL java_main.LogsWithLogger - this is fatal error
+10:18:24.045 [main] ERROR java_main.LogsWithLogger - object is not present
+10:18:24.047 [main] FATAL java_main.LogsWithLogger - this is fatal error
+10:19:05.027 [main] ERROR java_main.LogsWithLogger - object is not present
+10:19:05.029 [main] FATAL java_main.LogsWithLogger - this is fatal error
+10:19:17.381 [main] ERROR java_main.LogsWithLogger - object is not present
