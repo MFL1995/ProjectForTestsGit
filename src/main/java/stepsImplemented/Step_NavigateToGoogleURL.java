@@ -9,7 +9,6 @@ import resources.base;
 
 public class Step_NavigateToGoogleURL extends base {
 	private static Logger log = LogManager.getLogger(Step_NavigateToGoogleURL.class.getName());
-
 	public Step_NavigateToGoogleURL(WebDriver driver) {
 		base.driver = driver;
 	}
@@ -26,7 +25,7 @@ public class Step_NavigateToGoogleURL extends base {
 		p1.getSelectCountriesFindBy().sendKeys("valoare20");
 		
 		log.debug("I am debugging");
-//		log.error("object is not present");
-//		log.fatal("this is fatal error");
+		log.error("object is not present");
+		log.fatal("this is fatal error");
 	}
 }

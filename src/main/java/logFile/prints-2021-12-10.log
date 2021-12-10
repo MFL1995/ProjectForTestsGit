@@ -1,6 +1,6 @@
-09:58:24.794 [main] INFO  stepsImplemented.Step_NavigateToGoogleURL - s-a rulat
-09:58:30.168 [main] INFO  stepsImplemented.Step_NavigateToYoutubeURL - s-a rulat
-09:58:30.168 [main] TRACE stepsImplemented.Step_NavigateToYoutubeURL - cu success
-09:58:30.169 [main] ERROR stepsImplemented.Step_NavigateToYoutubeURL - s-a reprodus eroarea
-13:41:32.417 [main] INFO  stepsImplemented.Step_NavigateToGoogleURL - s-a rulat
-13:41:38.444 [main] INFO  stepsImplemented.Step_NavigateToYoutubeURL - s-a rulat
+16:07:17.426 [main] INFO  stepsImplemented.Step_NavigateToGoogleURL - s-a rulat
+16:07:17.705 [main] DEBUG stepsImplemented.Step_NavigateToGoogleURL - I am debugging
+16:07:17.705 [main] ERROR stepsImplemented.Step_NavigateToGoogleURL - object is not present
+16:07:17.705 [main] FATAL stepsImplemented.Step_NavigateToGoogleURL - this is fatal error
+16:07:23.923 [main] INFO  stepsImplemented.Step_NavigateToYoutubeURL - s-a rulat
+16:07:23.924 [main] TRACE stepsImplemented.Step_NavigateToYoutubeURL - cu success
