@@ -15,13 +15,15 @@
 				pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n" />
 		</Console>
 	</Appenders>
-	<Loggers>
+	<Loggers> 
+	<!--
 		<Logger name="java_main.LogsWithLogger" level="all"
 			additivity="false">
 			<AppenderRef ref="File" />
-			<!-- If the 'AppenderRef ref' value is Console, it will print in console -->
-			<!-- It will run only once if additivity 'false' and AppenderRef is wrriten -->
-		</Logger>
+			If the 'AppenderRef ref' value is Console, it will print in console 
+			It will run only once if additivity 'false' and AppenderRef is wrriten 
+		</Logger>  
+	-->
 		<Root level="all">
 			<AppenderRef ref="File" />
 		</Root>

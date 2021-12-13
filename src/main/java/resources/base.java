@@ -15,7 +15,7 @@ public class base {
 	protected static WebDriver initializeDriver() throws IOException {
 		prop = new Properties();
 		FileInputStream fis = new FileInputStream(
-				"C:\\My projects\\CucumberProject1\\src\\main\\java\\resources\\data.properties");
+				"C:\\My projects\\ProjectForTests\\src\\main\\java\\resources\\data.properties");
 		prop.load(fis);
 		String BrowserName = prop.getProperty("browser");
 		if (BrowserName.equals("chrome")) {

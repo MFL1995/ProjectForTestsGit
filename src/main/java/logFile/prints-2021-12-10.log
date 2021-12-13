@@ -1,6 +1,0 @@
-16:07:00.401 [main] TRACE stepsImplemented.Step_NavigateToYoutubeURL - cu success
-16:07:00.411 [main] ERROR stepsImplemented.Step_NavigateToYoutubeURL - s-a reprodus eroarea
-09:47:10.129 [main] INFO  stepsImplemented.Step_NavigateToGoogleURL - s-a rulat
-09:47:15.717 [main] INFO  stepsImplemented.Step_NavigateToYoutubeURL - s-a rulat
-09:47:15.717 [main] TRACE stepsImplemented.Step_NavigateToYoutubeURL - cu success
-09:47:15.717 [main] ERROR stepsImplemented.Step_NavigateToYoutubeURL - s-a reprodus eroarea

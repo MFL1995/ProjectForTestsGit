@@ -1,6 +1,0 @@
-13:04:26.551 [main] ERROR stepsImplemented.Step_NavigateToYoutubeURL - NavigateToYoutubeURLMethod, s-a reprodus eroarea
-13:05:17.327 [main] INFO  stepsImplemented.Step_NavigateToGoogleURL - BaseURLGoogleMethod s-a rulat
-13:05:21.416 [main] INFO  stepsImplemented.Step_NavigateToYoutubeURL - s-a rulat
-13:05:21.417 [main] TRACE stepsImplemented.Step_NavigateToYoutubeURL - cu success
-13:05:21.417 [main] ERROR stepsImplemented.Step_NavigateToYoutubeURL - s-a reprodus eroarea
-13:07:15.628 [main] INFO  stepsImplemented.Step_NavigateToGoogleURL - s-a rulat
